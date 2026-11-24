@@ -35,7 +35,7 @@
       <OptionBox :json="gData.VIIafx" code="VIIafx" @send-message="handleSendMessage" type="affix" ref="VIIafx" @modal="openModal" :whitelist="Object.keys(this.cData).concat(['ṭ','ŧ','ḍ','đ','ņ','ṇ','ŗ','ṛ','ł','ḷ','ż'])" :aff6="calculateSlot6"/>
     </div>
     <div class="section" :class="{hidden: ['suppletive','affixjunct','register','modular','ref','refCS','bias','free'].includes(wordType)}"> <!-- Section 3: Configuration -->
-      <h2 style="width:100%;">Configuration</h2>
+      <h2 style="width:100%;">構配</h2>
       <OptionBox :json="gData.plex" code="plex" @send-message="handleSendMessage" ref="plex" @modal="openModal"/>
       <OptionBox :json="gData.simil" code="simil" @send-message="handleSendMessage" :disabled='["UPX","DPX"].includes(this.gOptions.plex)' ref="simil" @modal="openModal"/>
       <OptionBox :json="gData.cctd" code="cctd" @send-message="handleSendMessage" :disabled='["UPX","DPX"].includes(this.gOptions.plex)' ref="cctd" @modal="openModal"/>
@@ -74,7 +74,7 @@
       <OptionBox :json="gData.asp" code="asp3" @send-message="handleSendMessage" ref="asp3" @modal="openModal" :disabled='this.gOptions.vn3 != "asp"'/>
     </div>
     <div class="section" :class="{hidden: wordType != 'modular'}">
-      <h2 style="width:100%;">Slot IV</h2>
+      <h2 style="width:100%;">槽 IV</h2>
       <OptionBox :json="gData.vh" code="vh" @send-message="handleSendMessage" ref="vh" @modal="openModal" :class='{hidden: this.wordType != "modular"}' :disabled='this.gOptions.modNumber == "1"'/>
       <OptionBox :json="gData.modScope" code="modScope" @send-message="handleSendMessage" ref="modScope" @modal="openModal" :class='{hidden: this.wordType != "modular" || this.gOptions.modNumber == "1" || this.gOptions.vh == "vn"}'/>
       <OptionBox :json="gData.v4n" code="v4n" @send-message="handleSendMessage" ref="v4n" @modal="openModal" :class='{hidden: this.gOptions.vh != "vn" || this.gOptions.modNumber == "1"}'/>
