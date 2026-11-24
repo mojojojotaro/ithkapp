@@ -1,0 +1,32 @@
+name: Konstrui kaj publikigi al gh-pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Elŝuti kodon
+        uses: actions/checkout@v4
+
+      - name: Agordi Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instali kaj konstrui
+        run: |
+          npm install
+          npm run build
+
+      - name: Publikigi dist al gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
