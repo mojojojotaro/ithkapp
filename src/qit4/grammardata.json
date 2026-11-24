@@ -2,7 +2,7 @@
     "root": {
         "type":"text",
         "title":"語根 (槽 III)",
-        "popupdesc":"The 語根Root is the general definition of the word, and can be directly modified by the 語幹Stem and 詳述Specification. Check the <a target=\"_blank\" href=\"http://www.ithkuil.net/newithkuil_lexicon.pdf\">Lexicon</a> for what your word's 語根Root, 語幹Stem, and 詳述Specification should be."
+        "popupdesc":"The root is the general definition of the word, and can be directly modified by the Stem and 詳述Specification. Check the <a target=\"_blank\" href=\"http://www.ithkuil.net/newithkuil_lexicon.pdf\">Lexicon</a> for what your word's Root, Stem, and Specification should be."
     },
 
     "stem": {
@@ -23,10 +23,10 @@
             },
             "s0":{
                 "name": "語幹 0",
-                "desc": "語幹Stem 0 is special in that it describes the overall \"stemless\" definition of a root; i.e. the title of its box in the Lexicon document (if it has one) or a general agglomeration of the three roots' definitions."
+                "desc": "Stem 0 is special in that it describes the overall \"stemless\" definition of a root; i.e. the title of its box in the Lexicon document (if it has one) or a general agglomeration of the three roots' definitions."
             }
         },
-        "popupdesc":"The 語幹Stem of a word describes which of three possible definitons that a root could take is used in the word. Specific stem definitions are in the <a target=\"_blank\" href=\"http://www.ithkuil.net/newithkuil_lexicon.pdf\">Lexicon</a>."
+        "popupdesc":"The stem of a word describes which of three possible definitons that a root could take is used in the word. Specific stem definitions are in the <a target=\"_blank\" href=\"http://www.ithkuil.net/newithkuil_lexicon.pdf\">Lexicon</a>."
     },
 
     "func": {
@@ -35,14 +35,14 @@
         "options": {
             "STA": {
                 "name":"静態機能",
-                "desc":"The <b>静態Static</b> 機能Function is typically used in the following ways:<br/><ul><li>Nouns (Nominal relation) identifying an object, group, entity, or action in which any change or motion is irrelevant to the speaker, or</li><li>Verbs (Verbal relation) referring to a non-changing, undynamic state.</li></ul>"
+                "desc":"The <b>Static</b> function is typically used in the following ways:<br/><ul><li>Nouns (Nominal relation) identifying an object, group, entity, or action in which any change or motion is irrelevant to the speaker, or</li><li>Verbs (Verbal relation) referring to a non-changing, undynamic state.</li></ul>"
             },
             "DYN": {
                 "name":"動態機能",
-                "desc":"The <b>動態機能</b> 機能Function is typically used in the following ways:<br/><ul><li>Nouns (Nominal relation) referring to states involving change or motion where said change or motion is relevant to the speaker, or</li><li>Verbs (Verbal relation) involving change/motion/movement/action in which the change/motion/movement/action is relevant to the speaker's intended meaning, especially those involving an agent/enabler and a patient.</li></ul>"
+                "desc":"The <b>Dynamic</b> function is typically used in the following ways:<br/><ul><li>Nouns (Nominal relation) referring to states involving change or motion where said change or motion is relevant to the speaker, or</li><li>Verbs (Verbal relation) involving change/motion/movement/action in which the change/motion/movement/action is relevant to the speaker's intended meaning, especially those involving an agent/enabler and a patient.</li></ul>"
             }
         },
-        "popupdesc":"機能Function is used to show how relevant any change or motion related to a word is to the speaker, and can be both subjective (a meal as an event [STA] or as a process [DYN]?) or objective (<i>the sunset is orange</i> [STA] vs <i>the sky became orange</i> [DYN]) depending on the situation."
+        "popupdesc":"Function is used to show how relevant any change or motion related to a word is to the speaker, and can be both subjective (a meal as an event [STA] or as a process [DYN]?) or objective (<i>the sunset is orange</i> [STA] vs <i>the sky became orange</i> [DYN]) depending on the situation."
     },
 
     "spec": {
@@ -51,7 +51,7 @@
         "options": {
             "BSC": {
                 "name":"基本詳述",
-                "desc":"A holistic instantiation of a 語根Root, prior to the application of one of the other three 詳述Specifications, essentially encompassing the meanings of the CTE, and CSV 詳述Specifications below."
+                "desc":"A holistic instantiation of a root, prior to the application of one of the other three Specifications, essentially encompassing the meanings of the CTE, and CSV 詳述Specifications below."
             },
             "CTE": {
                 "name":"内容詳述",
@@ -66,7 +66,7 @@
                 "desc":"Whichever of the following is most salient to the semantics of the particular stem:<br/>(1) tangible tool/instrument/means by which a state act/state/event occurs, or if inapplicable, then<br/>(2) the third-party object/entity associated with the interaction between two parties (e.g., the object being given in a dative interaction), or if inapplicable then<br/>(3) the resulting tangible object/product/situation, or if inapplicable, then<br/>(4) the semantic patient or experiencer of the state/act/event."
             }
         },
-        "popupdesc":"詳述Specification makes the definition of the root more specific.<br/>Listed below are the <i>generic</i> definitions of the terms, but <b>the <a target=\"_blank\" href=\"http://www.ithkuil.net/newithkuil_lexicon.pdf\">Lexicon</a> should have all necessary information</b> (i.e. what your root means when paired with a certain specification)."
+        "popupdesc":"Specification makes the definition of the root more specific.<br/>Listed below are the <i>generic</i> definitions of the terms, but <b>the <a target=\"_blank\" href=\"http://www.ithkuil.net/newithkuil_lexicon.pdf\">Lexicon</a> should have all necessary information</b> (i.e. what your root means when paired with a certain specification)."
     },
 
     "ver": {
@@ -75,34 +75,34 @@
         "options": {
             "PRC":{
                 "name":"過程版",
-                "desc":"The <b>過程Processual</b> is the default 版Version and describes all acts, conditions, or events which are ends in themselves and not goal-oriented, i.e., are not focused on an anticipated outcome or final purpose toward which a progressive effort is being made."
+                "desc":"The <b>Processual</b> is the default Version and describes all acts, conditions, or events which are ends in themselves and not goal-oriented, i.e., are not focused on an anticipated outcome or final purpose toward which a progressive effort is being made."
             },
             "CPT":{
                 "name":"完成版",
-                "desc":"The <b>完成版Completive</b> describes acts, conditions, or events which achieve, or are intended to achieve, an anticipated outcome, i.e., which are oriented toward the achievement of some purpose, outcome, or final state. Such a distinction is usually handled by word choice in Western languages.<br/><i>hunt → to hunt down<br/>to be losing → to lose<br/>to study → to learn<br/>to be winning → to win<br/>to strive for → to accomplish, achieve</i>"
+                "desc":"The <b>Completive</b> describes acts, conditions, or events which achieve, or are intended to achieve, an anticipated outcome, i.e., which are oriented toward the achievement of some purpose, outcome, or final state. Such a distinction is usually handled by word choice in Western languages.<br/><i>hunt → to hunt down<br/>to be losing → to lose<br/>to study → to learn<br/>to be winning → to win<br/>to strive for → to accomplish, achieve</i>"
             }
         },
-        "popupdesc":"版Version describes if a given word is goal-oriented or not in its outcome. Ithkuil III had six, but New Ithkuil has only two."
+        "popupdesc":"Version describes if a given word is goal-oriented or not in its outcome. Ithkuil III had six, but New Ithkuil has only two."
     },
 
     "ctxt": {
         "type":"",
-        "title":"Context",
+        "title":"文脈",
         "options":{
             "EXS":{
-                "name":"Existential",
+                "name":"存在文脈",
                 "desc":"<b>Neutral description</b><br/>The EXISTENTIAL context focuses on those features of a noun or verb which are ontologically objective, i.e., those that exist irrespective of any observers, opinions, interpretations, beliefs or attitudes. Similarly excluded from consideration in the EXISTENTIAL is any notion of a noun's use, function, role or benefit. The EXISTENTIAL serves only to point out the mere existence of a noun as a tangible, objective entity under discussion. It is thus used to offer mere identification of a noun or verb."
             },
             "FNC":{
-                "name":"Functional",
+                "name":"意味文脈",
                 "desc":"<b>Focus on the personal meaning/importance</b><br/>The FUNCTIONAL context focuses on those features of a formative that are defined socially by ideas, attitudes, beliefs, opinions, convention, cultural status, use, function, benefit, etc. It serves to identify not what a noun existentially is, but to show that the noun has specific (and subjective) contextual meaning, relevance or purpose."
             },
             "RPS":{
-                "name":"Representational",
+                "name":"比喩文脈",
                 "desc":"<b>Connotes that the word is a metaphor</b><br/>The REPRESENTATIONAL context focuses on a formative as a symbol, metaphor, or metonym, in that it indicates that the formative is serving as a representation or substitute for some other concept or entity which is abstractly associated with it. For example, the metaphorical connotations of the English sentence <i>That pinstripe-suited dog is checking out a kitty</i>, can be equally conveyed in Ithkuil by inflecting the words for 'dog' and 'kitty' into the REPRESENTATIONAL context. The REPRESENTATIONAL is one of several ways that Ithkuil overtly renders all metaphorical, symbolic, or metonymic usages (from a grammatical standpoint)."
             },
             "AMG":{
-                "name":"Amalgamate",
+                "name":"融合文脈",
                 "desc":"<b>Connotes a focus on the emotional impact plus cultural significance</b><br/>The AMALGAMATIVE context is the most abstract and difficult to understand from a Western linguistic perspective. It focuses on the systemic, holistic, gestalt-like, componential nature of a formative, implying that its objective and subjective totality is derived synergistically from (or as an emergent property of) the interrelationships between all of its parts, not just in terms of a static momentary appraisal, but in consideration of the entire developmental history of the noun and any interactions and relationships it has (whether past, present or potential) within the larger context of the world. Its use indicates the speaker is inviting the hearer to subjectively consider all the subjective wonder, emotional nuances, psychological ramifications and/or philosophical implications associated with the noun's existence, purpose, or function, as being a world unto itself, intrinsically interconnected with the wider world beyond it on many levels."
             }
         },
@@ -111,18 +111,18 @@
 
     "rel": {
         "type":"",
-        "title":"Relation",
+        "title":"従属関係",
         "options": {
             "UNF/C": {
-                "name":"Nominal",
+                "name":"非従属枠名詞",
                 "desc":"The word is <i>not</i> a verb (which usually means a noun).<br/>All Concatenated words are Nominal automatically."
             },
             "UNF/K": {
-                "name":"Unframed Verbal",
+                "name":"非従属枠動詞",
                 "desc":"The word is a verb"
             },
             "FRM": {
-                "name":"Framed Verbal",
+                "name":"従属枠動詞",
                 "desc":"The word is the main verb <b>in a verb phrase</b> (or \"frame\") - the verb phrase continues until the end of the sentance, and this word MUST go at the start of it."
             }
         },
@@ -131,18 +131,18 @@
 
     "concat": {
         "type":"",
-        "title":"Concatenation",
+        "title":"連結",
         "options": [
             {
-                "name":"None",
+                "name":"連結無",
                 "desc":"This word is not concatenated to another."
             },
             {
-                "name":"Type 1",
+                "name":"境遇型連結",
                 "desc":"Type-1 concatenation implies a <b>circumstantial relationship</b> between the concatenated formative and the parent (equivalent to placing the concatenated formative into a case-frame)"
             },
             {
-                "name":"Type 2",
+                "name":"派生型連結",
                 "desc":"Type-2 concatenation is derivational (i.e., lexicalizing), creating a new lexico-semantic gestalt and usually requiring a different English translation.<br/>This is analogous to English forms like <i>polar bear</i> naming a new animal rather than stating a location."
             }
         ],
@@ -151,22 +151,22 @@
     
     "shcut": {
         "type":"",
-        "title":"Shortcutting",
+        "title":"縮写",
         "options": [
             {
-                "name":"Default (VII only)",
+                "name":"既定 (VII only)",
                 "desc":"Do not apply Slot IV/VI shortcuts"
             },
             {
-                "name":"Slot IV/VI",
+                "name":"槽 IV/VI",
                 "desc":"Apply Slot IV/VI shortcuts if possible (takes priority over all other shortcuts)"
             },
             {
-                "name":"No VII affix",
+                "name":"VII 接辞無",
                 "desc":"Do not apply Slot IV/VI or Slot VII affix shortcuts"
             },
             {
-                "name":"Absolutely None",
+                "name":"全無",
                 "desc":"Do not apply ANY shortcuts whatsoever, do not drop any letters, and show the full gloss instead of the regular"
             }
         ],
@@ -175,13 +175,13 @@
     
     "Vafx": {
         "type":"affix",
-        "title":"Slot V Affixes",
+        "title":"槽 V 接辞",
         "popupdesc":"<a href=\"http://www.ithkuil.net/newithkuil_affixes.pdf\" target=\"_blank\">Slot V Affixes</a> are simple definitional modifications to your word applied <b>before</b> any concatenated words, Configuration, Affiliation, Extension, Perspective, and Essence.<br/><b>Degree 0</b> refers to the affix's general semantic concept as a whole, similar to Stem 0.<br/><br/><u>Types:</u><br/><b>Type 1:</b> circumstantial relation to the word<br/><b>Type 2:</b> derivational relation to the word (i.e. it's a new word/phrase, as in 'polar bear')<br/><b>Type 3:</b> Apply to the previous (or, if not possible, following) affix<br/><br/><b>Cₐ-stacking</b> is the ability to add a Cₐ (Configuration+Affiliation+Extension+Perspective+Essence) consonant-form as an affix.<br/><br/>The <b>Ref</b> options allow you to show a Referential (pronoun) on this word as a shortcut - selecting this will turn the Degree options into Case options.<br/><i>Ref (3) is only available if it wouldn't otherwise be Type 3, i.e. if there are no Type 1 or 2 affixes or other Type 3 affixes for it to apply to</i>"
     },
 
     "VIIafx": {
         "type":"affix",
-        "title":"Slot VII Affixes",
+        "title":"槽 VII 接辞",
         "popupdesc":"<a href=\"http://www.ithkuil.net/newithkuil_affixes.pdf\" target=\"_blank\">Slot VII Affixes</a> are simple definitional modifications to your word applied <b>after</b> any concatenated words, Configuration, Affiliation, Extension, Perspective, and Essence.<br/><b>Degree 0</b> refers to the affix's general semantic concept as a whole, similar to Stem 0.<br/><br/><u>Types:</u><br/><b>Type 1:</b> circumstantial relation to the word<br/><b>Type 2:</b> derivational relation to the word (i.e. it's a new word/phrase, as in 'polar bear')<br/><b>Type 3:</b> Apply to the previous (or, if not possible, following) affix<br/><br/><b>Cₐ-stacking</b> is the ability to add a Cₐ (Configuration+Affiliation+Extension+Perspective+Essence) consonant-form as an affix.<br/><br/>The <b>Ref</b> options allow you to show a Referential (pronoun) on this word as a shortcut - selecting this will turn the Degree options into Case options.<br/><i>Ref (3) is only available if it wouldn't otherwise be Type 3, i.e. if there are no Type 1 or 2 affixes or other Type 3 affixes for it to apply to</i>"
     },
 
