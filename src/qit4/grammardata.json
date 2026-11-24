@@ -187,22 +187,22 @@
 
     "plex": {
         "type":"",
-        "title":"Plexity",
+        "title":"数性",
         "options": {
             "UPX": {
-                "name":"Uniplex",
+                "name":"単数構配",
                 "desc":"The UNIPLEX configuration indicates a single, contextual embodiment of the word, i.e., one whole contextual unit of the basic nominal stem,<br/>e.g. <i>a tree, a person, a screwdriver, a grape, a hammer blow, a hole</i>.<br/>With verbs the UNIPLEX signifies a single, holistic act, state, or event,<br/>e.g. <i>to be a tree, to become a person, to use a screwdriver, to eat a grape, to strike (once) with a hammer, to dig a hole</i>."
             },
             "DPX": {
-                "name":"Vague Duplex",
+                "name":"双数構配",
                 "desc":"The Vague DUPLEX (unofficial name) is the same as the below DUPLEX, except no information regarding Similarity or Connectedness is relayed."
             },
             "D": {
-                "name":"Duplex",
+                "name":"双数",
                 "desc":"The DUPLEX indicated any two contextual embodiments of the word (like the UNIPLEX) or two individual, holistic acts, states, or events.<br/>Like the <b>DUAL</b> in some natural languages."
             },
             "M": {
-                "name":"Multiplex",
+                "name":"複数",
                 "desc":"Same as the above two in terms of when it is applied, but only for more than two instances.<br/>Like the <b>PLURAL</b> in most natural languages."
             }
         },
