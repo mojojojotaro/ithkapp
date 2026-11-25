@@ -138,11 +138,11 @@
                 "desc":"This word is not concatenated to another."
             },
             {
-                "name":"境遇型連結",
+                "name":"境遇型連結 (T1)",
                 "desc":"Type-1 concatenation implies a <b>circumstantial relationship</b> between the concatenated formative and the parent (equivalent to placing the concatenated formative into a case-frame)"
             },
             {
-                "name":"派生型連結",
+                "name":"派生型連結 (T2)",
                 "desc":"Type-2 concatenation is derivational (i.e., lexicalizing), creating a new lexico-semantic gestalt and usually requiring a different English translation.<br/>This is analogous to English forms like <i>polar bear</i> naming a new animal rather than stating a location."
             }
         ],
@@ -211,18 +211,18 @@
 
     "simil": {
         "type":"",
-        "title":"Similarity",
+        "title":"類似性",
         "options": {
             "S": {
-                "name":"Similar",
+                "name":"似類",
                 "desc":"The 2+ instances are similar or the same"
             },
             "D": {
-                "name":"Dissimilar",
+                "name":"異類",
                 "desc":"The 2+ instances are not similar at all"
             },
             "F": {
-                "name":"Fuzzy",
+                "name":"混類",
                 "desc":"It is unclear as to how similar the 2+ instances are"
             }
         },
@@ -231,18 +231,18 @@
 
     "cctd": {
         "type":"",
-        "title":"Connectedness",
+        "title":"離合性",
         "options": {
             "S": {
-                "name":"Separate",
+                "name":"離性",
                 "desc":"The 2+ instances are separate"
             },
             "C": {
-                "name":"Connected",
+                "name":"連性",
                 "desc":"The 2+ instances are somewhat connected (but discrete)"
             },
             "F": {
-                "name":"Fused",
+                "name":"合性",
                 "desc":"The 2+ instances are <i>very</i> connected and are somewhat difficult to make discrete"
             }
         },
