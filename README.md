@@ -1,4 +1,4 @@
-﻿# [Ithkapp](https://thexxos.github.io/ithkapp/) (hwirbuvie-ekţgyil)
+﻿# [Ithkapp](https://mojojojotaro.github.io/ithkapp) (hwirbuvie-ekţgyil)
 
 Ithkapp is a web app to make translation into [New Ithkuil (Ithkuil IV)](http://www.ithkuil.net/) easier.
 
