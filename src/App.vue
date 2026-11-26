@@ -128,13 +128,13 @@
         <div v-if="modalContent.type == ''">
           <div v-if="['c','c1','c2'].includes(modalID)" class="tab">
             <button class="tablinks active" @click="changeClassTab('THM','PLM','Allcases')" id="Allcases">All</button>
-            <button class="tablinks" @click="changeClassTab('THM','IND','Transrelative')" id="Transrelative">Transrelative</button>
-            <button class="tablinks" @click="changeClassTab('POS','PAR','Appositive')" id="Appositive">Appositive</button>
-            <button class="tablinks" @click="changeClassTab('APL','CSD','Associative')" id="Associative">Associative</button>
-            <button class="tablinks" @click="changeClassTab('FUN','SIT','Adverbial')" id="Adverbial">Adverbial</button>
-            <button class="tablinks" @click="changeClassTab('PRN','RLT','Relational')" id="Relational">Relational</button>
-            <button class="tablinks" @click="changeClassTab('ACT','VOC','Affinitive')" id="Affinitive">Affinitive</button>
-            <button class="tablinks" @click="changeClassTab('LOC','PLM','Spatio-Temporal')" id="Spatio-Temporal">Spatio-Temporal</button>
+            <button class="tablinks" @click="changeClassTab('THM','IND','Transrelative')" id="Transrelative">主役格類</button>
+            <button class="tablinks" @click="changeClassTab('POS','PAR','Appositive')" id="Appositive">同格類</button>
+            <button class="tablinks" @click="changeClassTab('APL','CSD','Associative')" id="Associative">連想格類</button>
+            <button class="tablinks" @click="changeClassTab('FUN','SIT','Adverbial')" id="Adverbial">副詞格類</button>
+            <button class="tablinks" @click="changeClassTab('PRN','RLT','Relational')" id="Relational">関係格類</button>
+            <button class="tablinks" @click="changeClassTab('ACT','VOC','Affinitive')" id="Affinitive">親和格類</button>
+            <button class="tablinks" @click="changeClassTab('LOC','PLM','Spatio-Temporal')" id="Spatio-Temporal">時空格類</button>
           </div>
           <div v-else-if="modalID == 'cIII'" class="tab">
             <button class="tablinks active" @click="changeClassTab('OBL','VOC','Allcases')" id="Allcases">All</button>
