@@ -1332,8 +1332,8 @@
         "popupdesc": "Fairly self-explanatory. Applies another case to the word."
     },
     "refAffix": {
-        "type": "接辞",
-        "title": "Referential Affixes",
+        "type": "affix",
+        "title": "参照詞接辞",
         "popupdesc": "Affixes to be applied to this referential. Again, fairly self-explanatory."
     },
 
