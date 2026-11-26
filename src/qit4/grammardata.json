@@ -2,7 +2,7 @@
     "root": {
         "type":"text",
         "title":"語根 (槽III)",
-        "popupdesc":"The root is the general definition of the word, and can be directly modified by the Stem and 詳述Specification. Check the <a target=\"_blank\" href=\"http://www.ithkuil.net/newithkuil_lexicon.pdf\">Lexicon</a> for what your word's Root, Stem, and Specification should be."
+        "popupdesc":"The root is the general definition of the word, and can be directly modified by the Stem and Specification. Check the <a target=\"_blank\" href=\"http://www.ithkuil.net/newithkuil_lexicon.pdf\">Lexicon</a> for what your word's Root, Stem, and Specification should be."
     },
 
     "stem": {
@@ -51,7 +51,7 @@
         "options": {
             "BSC": {
                 "name":"基本詳述",
-                "desc":"A holistic instantiation of a root, prior to the application of one of the other three Specifications, essentially encompassing the meanings of the CTE, and CSV 詳述Specifications below."
+                "desc":"A holistic instantiation of a root, prior to the application of one of the other three Specifications, essentially encompassing the meanings of the CTE, and CSV Specifications below."
             },
             "CTE": {
                 "name":"内容詳述",
