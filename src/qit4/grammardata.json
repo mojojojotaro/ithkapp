@@ -647,7 +647,7 @@
                 "desc":"Conveys that an action, state or event continues on without stopping. Translates such English adverbials as ‘…on and on’ or ‘…away’ as in <i>They danced the night away</i> or <i>They've been battling on and on since last year</i>."
             },
             "EXP":{
-                "name":"経験体",
+                "name":"経歴体",
                 "desc":"Translates English ‘ever’ in the sense of ‘within the realm of one’s experience’ or ‘at some point in one’s experience,’ as in <i>Does he ever shut up?</i><br/>Note the EXPERIENTIAL does not equate to ‘ever’ when it means ‘always,’ as in <i>Ever does he seek his destiny</i> nor as an adverb of mere emphasis as in <i>Was she ever tired</i>."
             },
             "IRP":{
@@ -811,7 +811,7 @@
                 "desc":"The party that is the target of, and/or undergoes, the effect/impact or change of state as a result of a tangible act/event.<br/><b>Semantic role:</b> PATIENT"
             },
             "AFF":{
-                "name":"経験格",
+                "name":"体験格",
                 "desc":"The party who undergoes an unwilled, affective experience,<br/>e.g. coughing, sneezing, feeling hot/cold, trembling, experiencing sensory input (tactile, olfactory, visual, aural, gustatory), proprioceptive states, psychological/emotional states, reflex reactions such as cringing, yawning, ducking, screaming in fright, etc.<br/><b>Semantic role:</b> EXPERIENCER"
             },
             "STM":{
