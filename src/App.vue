@@ -127,7 +127,7 @@
         <p style="text-align:center;" v-html="modalContent.popupdesc"></p>
         <div v-if="modalContent.type == ''">
           <div v-if="['c','c1','c2'].includes(modalID)" class="tab">
-            <button class="tablinks active" @click="changeClassTab('THM','PLM','Allcases')" id="Allcases">All</button>
+            <button class="tablinks active" @click="changeClassTab('THM','PLM','Allcases')" id="Allcases">全部</button>
             <button class="tablinks" @click="changeClassTab('THM','IND','Transrelative')" id="Transrelative">主役格類</button>
             <button class="tablinks" @click="changeClassTab('POS','PAR','Appositive')" id="Appositive">同格類</button>
             <button class="tablinks" @click="changeClassTab('APL','CSD','Associative')" id="Associative">連想格類</button>
